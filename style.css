@@ -13,14 +13,19 @@ html{
 :root{
     --primary-color:#38ADA9;
     --write-color:#FFFFFF;
+    --secondary-color:#FAFAFA;
 }
 body{
     max-width: 192rem;  
     font-family: 'Poppins',sans-serif;
     color: #7C7C7C;
+    text-align: left;
 }
 .center{
     margin: 0 auto;
+}
+.text-center{
+    text-align: center;
 }
 .flex{
     display: flex;
@@ -44,7 +49,11 @@ body{
     border-radius: 35px;
     background: var(--primary-color) 0% 0% no-repeat padding-box;
     color: var(--write-color);
+    display: inline-block;
+       
 }
+
+
 
 
 
@@ -71,6 +80,84 @@ body{
     flex-wrap: wrap;
     
 }
+.hero-container{
+    height: 83.2rem;
+    width: 100%;
+    background-image: linear-gradient(254deg, rgba(56, 173, 169, 0.7) 0%, rgba(9, 62, 60, 0.7) 100%),url(./assets/clean_assets/png/hero_img.svg);
+    background-position: top;
+    flex-direction: column;   
+}
+
+.hero_text-container{
+    /* padding-right:38.4rem ; */
+    width: 72.1rem;
+    flex-direction: column;
+    margin-left: 38.4rem;
+    align-items: flex-start;
+    gap: 1rem;
+    
+}
+.hero_text-container
+.btn{
+    background-color: var(--write-color);
+    color: var(--primary-color);
+}
+
+    
+.hero_text-container
+h1{
+    color: var(--write-color);
+    font-size: 5.5em;
+}
+.hero_text-container
+p{
+  color:var(--write-color);  
+  font-size: 1.6em;
+}
+
+
+
+.why-container{
+    width: 70%;
+    flex-direction: column;
+}
+.why_sections{
+    justify-content: space-between;
+}
+.why-section{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.why-section
+img{
+    width: 15rem;
+}
+
+
+
+
+.service-container{
+    flex-direction: column;
+    width: 80%;
+    margin-top: 3rem;
+    padding: 9.9rem;
+    background-color: var(--secondary-color);
+    gap: 3rem;
+
+}
+.service_sections{
+    gap: 2rem;
+}
+.service-section{
+    flex-direction: column;
+    text-align: center;
+    width: 27.2rem;
+}
+
+
 
 @media screen and (max-width: 410px) {
     .header_topbar_sub{
@@ -79,6 +166,28 @@ body{
     .nav-list{
         justify-content: left;
     }
+    .hero_text-container{
+        padding: 2rem;
+        width: auto;
+        font-size: 0.7em;
+    } 
+    .hero_text-container
+    .btn{
+        height: 4rem;
+    } 
+    .why_sections{
+        flex-direction: column;
+        gap: 2rem;
+    } 
+}
 
+
+
+
+
+@media screen and (max-width:830px) {
+    .hero_text-container{        
+        margin: 0 auto;
+    }
     
 }
