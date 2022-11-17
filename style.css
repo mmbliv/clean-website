@@ -1,52 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Shadows+Into+Light&display=swap');
 
-body{
-    max-width: 1920px;
-    
-    font-family: 'Poppins',sans-serif;
+html{
+    font-size: 62.5%;
 }
-*
-::after
-::before{
+*,
+*::after,
+*::before{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.header_topbar_container{   
-    border-bottom: 1px #dedede solid; 
-    width: 100%;
-    height: 65px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+:root{
+    --primary-color:#38ADA9;
+    --write-color:#FFFFFF;
 }
-.header_topbar{
-    font-size: 15;
-    color:#7c7c7c ;  
-    display: flex;
-    flex-direction: row;   
-    justify-content: space-around; 
-    align-items: center;
-    width: 1142px;
+body{
+    max-width: 192rem;  
+    font-family: 'Poppins',sans-serif;
+    color: #7C7C7C;
+}
+.center{
     margin: 0 auto;
 }
-#email{
-    color: #38ada9;
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
 }
-.inline{
-    display: inline-block;
+.capitalize{
+    text-transform: capitalize;
 }
-@media screen and (max-width: 420px){
-    .header_topbar{
-        flex-direction: column;
-        justify-content: center;
-    }
+.list{
+    list-style: none;
+}
+.blue{
+    color:var(--primary-color);
+}
+.btn{
+    width: 19rem;
+    height: 6rem;
+    border: 1px var(--primary-color) solid;
+    border-radius: 35px;
+    background: var(--primary-color) 0% 0% no-repeat padding-box;
+    color: var(--write-color);
+}
+
+
+
+.header_sub_container{
+   width:70%;
+   font-size: 1.5em;
+   
+    
+}
+.header_topbar_sub{
+    gap: 0.5em;
+    flex-wrap: wrap;
+}
+.header_topbar,
+.header_nav{
+    justify-content: space-between;
+    flex-wrap: wrap;    
+}
+.nav-list li{
+    padding-right: 1em;
+    
+}
+.nav-list{
+    flex-wrap: wrap;
+    
+}
+
+@media screen and (max-width: 410px) {
     .header_topbar_sub{
-        display: flex;
-        flex-direction: column;
+        justify-content: left;
     }
-    .header_topbar_container{
-        height: auto;
+    .nav-list{
+        justify-content: left;
     }
 
+    
 }
