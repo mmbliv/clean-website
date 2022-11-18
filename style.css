@@ -92,7 +92,7 @@ body{
     flex-direction: column;   
 }
 
-.hero_text-container{
+.hero__text--container{
     /* padding-right:38.4rem ; */
     width: 72.1rem;
     flex-direction: column;
@@ -101,26 +101,24 @@ body{
     gap: 1rem;
     
 }
-.hero_text-container
-.btn{
+
+.hero--btn{
     background-color: var(--write-color);
     color: var(--primary-color);
 }
 
     
-.hero_text-container
-h1{
+.hero__text--heading{
     color: var(--write-color);
     font-size: 5.5em;
 }
-.hero_text-container
-p{
+.hero__text--content{
   color:var(--write-color);  
   font-size: 1.6em;
 }
 
 
-
+/* why section */
 .why-container{
     width: 70%;
     flex-direction: column;
@@ -178,13 +176,12 @@ img{
     .header__nav--list{
         justify-content: left;
     }
-    .hero_text-container{
+    .hero__text--container{
         padding: 2rem;
         width: auto;
         font-size: 0.7em;
     } 
-    .hero_text-container
-    .btn{
+    .hero--btn{
         height: 4rem;
     } 
     .why_sections{
@@ -198,7 +195,7 @@ img{
 
 
 @media screen and (max-width:830px) {
-    .hero_text-container{        
+    .hero__text--container{        
         margin: 0 auto;
     }
     
