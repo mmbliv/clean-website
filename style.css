@@ -1,48 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Shadows+Into+Light&display=swap');
 
-html{
+html {
     font-size: 62.5%;
 }
+
 *,
 *::after,
-*::before{
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-:root{
-    --primary-color:#38ADA9;
-    --write-color:#FFFFFF;
-    --secondary-color:#FAFAFA;
+
+:root {
+    --primary-color: #38ADA9;
+    --write-color: #FFFFFF;
+    --secondary-color: #FAFAFA;
 }
-body{
-    max-width: 192rem;  
-    font-family: 'Poppins',sans-serif;
+
+body {
+    max-width: 192rem;
+    font-family: 'Poppins', sans-serif;
     color: #7C7C7C;
     text-align: left;
 }
-.center{
+
+.center {
     margin: 0 auto;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
-.flex{
+
+.flex {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
 }
-.capitalize{
+
+.capitalize {
     text-transform: capitalize;
 }
-.list{
+
+.list {
     list-style: none;
 }
-.text--blue{
-    color:var(--primary-color);
+
+.text--blue {
+    color: var(--primary-color);
 }
-.btn{
+
+.btn {
     width: 19rem;
     height: 6rem;
     border: 1px var(--primary-color) solid;
@@ -50,16 +60,19 @@ body{
     background: var(--primary-color) 0% 0% no-repeat padding-box;
     color: var(--write-color);
     display: inline-block;
-       
+
 }
-.container{
+
+.container {
     width: 80%;
 }
-.section--h1{
+
+.section--h1 {
     font-size: 3.6rem;
     color: var(--primary-color);
 }
-.section--h2{
+
+.section--h2 {
     font-size: 2.2rem;
     color: #38ADA9;
 
@@ -67,141 +80,241 @@ body{
 
 
 /* header */
-.header__topbar{
+.header__topbar {
     font-size: 1.5em;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.header__topbar__contact{
+
+.header__topbar__contact {
     gap: 0.5rem;
 }
 
-.header__nav{
+.header__nav {
     justify-content: space-between;
-    flex-wrap: wrap;    
-}
-.header__nav--list li{
-    padding-right: 1em;
-    
-}
-.header__nav--list{
     flex-wrap: wrap;
-    
+}
+
+.header__nav--list li {
+    padding-right: 1em;
+
+}
+
+.header__nav--list {
+    flex-wrap: wrap;
+
 }
 
 
 /* hero */
-.hero-container{
+.hero-container {
     height: 83.2rem;
     width: 100%;
-    background-image: linear-gradient(254deg, rgba(56, 173, 169, 0.7) 0%, rgba(9, 62, 60, 0.7) 100%),url(./assets/clean_assets/png/hero_img.svg);
+    background-image: linear-gradient(254deg, rgba(56, 173, 169, 0.7) 0%, rgba(9, 62, 60, 0.7) 100%), url(./assets/clean_assets/png/hero_img.svg);
     background-position: top;
-    flex-direction: column;   
+    flex-direction: column;
 }
 
-.hero__text--container{
+.hero__text--container {
     /* padding-right:38.4rem ; */
     width: 72.1rem;
     flex-direction: column;
     margin-left: 10%;
     align-items: flex-start;
     gap: 1rem;
-    
+
 }
 
-.hero--btn{
+.hero--btn {
     background-color: var(--write-color);
     color: var(--primary-color);
 }
 
-.hero__text--heading{
+.hero__text--heading {
     color: var(--write-color);
     font-size: 5.5em;
 }
-.hero__text--content{
-  color:var(--write-color);  
-  font-size: 1.6em;
+
+.hero__text--content {
+    color: var(--write-color);
+    font-size: 1.6em;
 }
 
 
 /* why section */
-.why-container{
+.why-container {
     flex-direction: column;
 }
-.why__sections{
+
+.why__sections {
     justify-content: space-between;
     gap: 2rem;
 }
-.why__section{  
+
+.why__section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
-.why__section--img{
+
+.why__section--img {
     width: 10rem;
 }
 
+/* service section */
 
-
-
-.service-container{
+.service-container {
     flex-direction: column;
-    width: 80%;
     margin-top: 3rem;
     padding: 9.9rem;
     background-color: var(--secondary-color);
     gap: 3rem;
 
 }
-.service_sections{
-    gap: 2rem;
-    
-   
+
+.service__sections {
+    gap: 3rem;
+
+
 }
-.service-section{
+
+.service__section {
     flex-direction: column;
     text-align: center;
-   
-}
-.service--img{
-    width:15rem ;
+
 }
 
+.service__section--img {
+    width: 15rem;
+}
+
+/* about section */
+.about-container {
+    padding: 10rem;
+    gap: 3rem;
+}
+
+.about__content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.about__content--sections {
+    flex-direction: column;
+    gap: 5rem;
+    align-items: flex-start;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.about__content__section {
+    gap: 1rem;
+}
+
+.about__content__section--subsection {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about--btn {
+    align-self: center;
+
+}
+
+@media screen and (max-width:830px) {
+    .hero__text--container {
+        margin: 0 auto;
+    }
+
+    .service__section--img {
+        width: 10rem;
+    }
+
+    .about--img {
+        height: 40rem;
+        width: 20rem;
+        object-position: left;
+        object-fit: cover;
+    }
+
+    .about__section--img {
+        height: 5rem;
+
+    }
+
+    .about-container {
+        padding: 0;
+    }
+
+    .about__content {
+        gap: 0.5rem;
+        padding-top: 1.5rem;
+    }
+
+    .about__content--sections {
+        gap: 2rem;
+        padding-top: 1rem;
+    }
 
 
+}
 
 @media screen and (max-width: 410px) {
-    .header__topbar__contact{
-       flex-direction: column;
-       
-       align-items: flex-start;
+    .header__topbar__contact {
+        flex-direction: column;
+
+        align-items: flex-start;
     }
-    .header__nav--list{
+
+    .header__nav--list {
         justify-content: left;
     }
-    .hero__text--container{
+
+    .hero__text--container {
         padding: 2rem;
         width: auto;
         font-size: 0.7em;
-    } 
-    .hero--btn{
+    }
+
+    .hero--btn {
         height: 4rem;
-    } 
-    .why__sections{
+    }
+
+    .why__sections {
         flex-direction: column;
         gap: 2rem;
-    } 
-}
-
-
-
-
-
-@media screen and (max-width:830px) {
-    .hero__text--container{        
-        margin: 0 auto;
     }
-    
+
+    .service__sections {
+        flex-direction: column;
+    }
+
+    .service__section--img {
+        width: 20rem;
+    }
+
+    .about--img {
+        display: none;
+    }
+
+    .about__content {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about__content__section {
+        flex-direction: column;
+
+    }
+
+    .about__content__section--subsection {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
 }
