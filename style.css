@@ -52,11 +52,18 @@ body{
     display: inline-block;
        
 }
-.main-container{
+.container{
     width: 80%;
 }
+.section--h1{
+    font-size: 3.6rem;
+    color: var(--primary-color);
+}
+.section--h2{
+    font-size: 2.2rem;
+    color: #38ADA9;
 
-
+}
 
 
 /* header */
@@ -96,7 +103,7 @@ body{
     /* padding-right:38.4rem ; */
     width: 72.1rem;
     flex-direction: column;
-    margin-left: 38.4rem;
+    margin-left: 10%;
     align-items: flex-start;
     gap: 1rem;
     
@@ -107,7 +114,6 @@ body{
     color: var(--primary-color);
 }
 
-    
 .hero__text--heading{
     color: var(--write-color);
     font-size: 5.5em;
@@ -120,22 +126,21 @@ body{
 
 /* why section */
 .why-container{
-    width: 70%;
     flex-direction: column;
 }
-.why_sections{
+.why__sections{
     justify-content: space-between;
+    gap: 2rem;
 }
-.why-section{  
+.why__section{  
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
-.why-section
-img{
-    width: 15rem;
+.why__section--img{
+    width: 10rem;
 }
 
 
@@ -184,7 +189,7 @@ img{
     .hero--btn{
         height: 4rem;
     } 
-    .why_sections{
+    .why__sections{
         flex-direction: column;
         gap: 2rem;
     } 
