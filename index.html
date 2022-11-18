@@ -10,40 +10,40 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="header_container">
-      <div class="header_sub_container center">
-        <div class="header_topbar flex">
-          <p class="header_topbar-text">Welcome To our Cleaning Company</p>
-          <div class="header_topbar_sub flex">
-            <p class="header_topbar-phone inline">Phone: +1 342 422 9029</p>
-            <p class="header_topbar-email inline">
-              Email: <span class="blue">info@company.com</span>
-            </p>
-          </div>
+    <!-- header -->
+    <header class="main-container center">
+      <div class="header__topbar flex">
+        <p class="header__topbar--welcome">Welcome To our Cleaning Company</p>
+        <div class="header__topbar__contact flex">
+          <p class="header__topbar__contact--phone inline">
+            Phone: +1 342 422 9029
+          </p>
+          <p class="header__topbar__contact--email inline">
+            Email: <span class="text--blue">info@company.com</span>
+          </p>
         </div>
       </div>
-      <nav class="header_sub_container center">
-        <div class="header_nav flex">
-          <img
-            src="./assets/clean_assets/svg/logo.svg"
-            alt="logo"
-            class="nav-log"
-          />
-          <ul class="capitalize nav-list flex list">
-            <li>home</li>
-            <li>about us</li>
-            <li>services</li>
-            <li>our works</li>
-            <li>pages</li>
-            <li>Blogs</li>
-            <li>contact</li>
-          </ul>
-          <button class="btn">Request A Quote</button>
-        </div>
+      <nav class="header__nav flex">
+        <img
+          src="./assets/clean_assets/svg/logo.svg"
+          alt="logo"
+          class="header__nav--logo"
+        />
+        <ul class="header__nav--list capitalize flex list">
+          <li>home</li>
+          <li>about us</li>
+          <li>services</li>
+          <li>our works</li>
+          <li>pages</li>
+          <li>Blogs</li>
+          <li>contact</li>
+        </ul>
+        <button class="btn">Request A Quote</button>
       </nav>
     </header>
 
     <main>
+      <!-- hero -->
       <div class="hero-container flex">
         <div class="hero_text-container center flex">
           <h1>
@@ -94,7 +94,11 @@
         <div class="service_sections flex">
           <section class="service-section flex">
             <h2>Residential Cleaning</h2>
-            <img src="./assets/clean_assets/png/resi_clean_img.svg" alt="" />
+            <img
+              src="./assets/clean_assets/png/resi_clean_img.svg"
+              alt=""
+              class="service--img"
+            />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -103,25 +107,35 @@
 
           <section class="service-section flex">
             <h2>Commercial Cleaning</h2>
-            <img src="./assets/clean_assets/png/commer_claean_img.svg" alt="" />
+            <img
+              src="./assets/clean_assets/png/commer_claean_img.svg"
+              alt=""
+              class="service--img"
+            />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua
             </p>
           </section>
-
           <section class="service-section flex">
             <h2>Office Cleaning</h2>
-            <img src="./assets/clean_assets/png/office_clean_img.svg" alt="" />
+            <img
+              src="./assets/clean_assets/png/office_clean_img.svg"
+              alt=""
+              class="service--img"
+            />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua
             </p>
           </section>
-
           <section class="service-section flex">
             <h2>Seasonal Cleaning</h2>
-            <img src="./assets/clean_assets/png/season_clean_img.svg" alt="" />
+            <img
+              src="./assets/clean_assets/png/season_clean_img.svg"
+              alt=""
+              class="service--img"
+            />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -129,6 +143,60 @@
           </section>
         </div>
         <button class="btn">More Services</button>
+      </div>
+      <!-- about section -->
+      <div class="about-container flex center">
+        <div class="about_img-container">
+          <img src="./assets/clean_assets/png/about_img.svg" alt="" />
+        </div>
+        <div>
+          <h2>Best Cleaning Company</h2>
+          <h1>About Company</h1>
+          <p>
+            We’re ready to clean up your home, office, house or a warehouse with
+            an astounding and acute precision
+          </p>
+          <div class="about-sections flex">
+            <section class="about_section flex">
+              <img src="./assets/clean_assets/svg/question_square.svg" alt="" />
+              <div class="about_section-sub flex">
+                <p>We Know the Area</p>
+                <p>
+                  We insure you from not doing our job as good as we promise.
+                </p>
+              </div>
+            </section>
+            <section class="about_section flex">
+              <img src="./assets/clean_assets/svg/question_square.svg" alt="" />
+              <div class="about_section-sub flex">
+                <p>We Know the Area</p>
+                <p>
+                  We insure you from not doing our job as good as we promise.
+                </p>
+              </div>
+            </section>
+
+            <section class="about_section flex">
+              <img src="./assets/clean_assets/svg/question_square.svg" alt="" />
+              <div class="about_section-sub flex">
+                <p>We Know the Area</p>
+                <p>
+                  We insure you from not doing our job as good as we promise.
+                </p>
+              </div>
+            </section>
+
+            <section class="about_section flex">
+              <img src="./assets/clean_assets/svg/question_square.svg" alt="" />
+              <div class="about_section-sub flex">
+                <p>We Know the Area</p>
+                <p>
+                  We insure you from not doing our job as good as we promise.
+                </p>
+              </div>
+            </section>
+          </div>
+        </div>
       </div>
     </main>
 
