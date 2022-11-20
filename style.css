@@ -386,7 +386,21 @@ body {
 /* project section */
 .project-container {
     width: 100%;
+    position: relative;
 
+}
+
+.project-arrow {
+    position: absolute;
+
+}
+
+.project-arrow--left {
+    left: 0;
+}
+
+.project-arrow--right {
+    right: 0;
 }
 
 .project-card {
