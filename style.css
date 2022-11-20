@@ -472,6 +472,32 @@ body {
     border: none;
 }
 
+/* footer */
+.footer-container {
+    display: grid;
+    grid-template-columns: 30% 20% 20% 20%;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.footer__section--header {
+    height: 3rem;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+
+
+
+}
+
+.footer__section-1--img {
+    height: 3rem;
+}
+
+.footer__section {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
 
 @media screen and (max-width:830px) {
     .hero__text--container {
@@ -638,6 +664,12 @@ body {
     .quote__card {
         padding: 1rem;
         gap: 1rem;
+    }
+
+    .footer-container {
+        grid-template-columns: auto;
+        gap: 1rem;
+
     }
 
 }
