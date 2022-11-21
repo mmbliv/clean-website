@@ -1,4 +1,10 @@
 @media screen and (max-width:830px) {
+    .main-content--text {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+
+    }
+
     .header__nav--logo {
         width: 60%;
     }
@@ -19,8 +25,18 @@
         margin: 0 auto;
     }
 
+    .why__sections {
+        gap: 2rem;
+
+    }
+
     .service__section--img {
-        width: 10rem;
+        width: 14rem;
+        height: 15rem;
+    }
+
+    .service__sections {
+        gap: 1rem;
     }
 
     .about--img {

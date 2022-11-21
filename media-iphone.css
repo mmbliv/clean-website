@@ -1,4 +1,19 @@
 @media screen and (max-width: 410px) {
+    .main-content--text {
+        font-size: 1rem;
+        line-height: 1.2rem;
+
+    }
+
+    .margin--section {
+        margin-top: 3rem;
+
+    }
+
+    .padding--section {
+        padding: 3rem;
+    }
+
     .section--h2 {
         font-size: 1.5rem;
     }
@@ -56,7 +71,7 @@
 
     .why__sections {
         flex-direction: column;
-        gap: 2rem;
+        gap: 3rem;
     }
 
 
@@ -64,12 +79,28 @@
         height: 4rem;
     }
 
+    .why__section {
+        gap: 1rem;
+    }
+
+    .service-container {
+        gap: 2rem;
+    }
+
     .service__sections {
         flex-direction: column;
+        gap: 2rem;
+    }
+
+    .service__section {
+        gap: 1.5rem;
+        width: min-content;
+
+
     }
 
     .service__section--img {
-        width: 20rem;
+        width: 25rem;
     }
 
     .about--img {
