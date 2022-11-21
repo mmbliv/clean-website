@@ -1,0 +1,152 @@
+@media screen and (max-width: 410px) {
+    .section--h2 {
+        font-size: 1.5rem;
+    }
+
+    .section--h1 {
+        font-size: 2em;
+    }
+
+    .margin--section {
+        margin-top: 3rem;
+    }
+
+    .header__topbar__contact {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header__nav {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+
+    }
+
+    .header__nav--list {
+        flex-wrap: wrap;
+    }
+
+    .header__nav--list {
+        justify-content: left;
+    }
+
+    .nav--btn {
+        justify-self: flex-start;
+        width: 10rem;
+        padding: 0.6rem 1rem;
+    }
+
+    .hero-container {
+        height: 60rem;
+    }
+
+    .hero__text--container {
+        padding: 2rem;
+        width: auto;
+        font-size: 0.7em;
+    }
+
+    .hero--btn {
+        height: 4rem;
+    }
+
+    .why-container {
+        gap: 2rem;
+    }
+
+    .why__sections {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+
+    .why__section--img {
+        height: 4rem;
+    }
+
+    .service__sections {
+        flex-direction: column;
+    }
+
+    .service__section--img {
+        width: 20rem;
+    }
+
+    .about--img {
+        display: none;
+    }
+
+    .about__content {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about__content__section {
+        flex-direction: column;
+
+    }
+
+    .about__content__section--subsection {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .team__sections {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .price__sections {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .price__sections--section {
+        width: 80%;
+    }
+
+    .blog__sections {
+        flex-direction: column;
+        gap: 3rem;
+
+    }
+
+    .blog__section {
+        width: 80%;
+    }
+
+    .project-container {
+        flex-direction: column;
+
+    }
+
+    .project-card {
+        width: 80%;
+    }
+
+    .quote-container {
+        height: 70%;
+    }
+
+    .quote__card__form--input {
+        height: 0.5rem;
+    }
+
+    .quote__card__form {
+        gap: 1rem;
+    }
+
+    .quote__card {
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .footer-container {
+        grid-template-columns: auto;
+        gap: 1rem;
+
+    }
+
+}

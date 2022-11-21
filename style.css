@@ -17,6 +17,8 @@ html {
     --write-color: #FFFFFF;
     --secondary-color: #FAFAFA;
     --grey-color: #EFEFEF;
+    --grey2-color: #DEDEDE;
+    --grey-text: #7C7C7C;
 }
 
 body {
@@ -108,15 +110,27 @@ body {
     color: var(--primary-color)
 }
 
+.margin--section {
+    margin-top: 7rem;
+}
+
 .text--write {
     color: var(--write-color);
 }
 
 /* header */
+.header__topbar--container {
+    border: 1px var(--grey2-color) solid;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--grey-text);
+}
+
 .header__topbar {
     font-size: 1.5em;
     justify-content: space-between;
     flex-wrap: wrap;
+    font-size: 1.5rem;
 }
 
 .header__topbar__contact {
@@ -124,19 +138,29 @@ body {
 }
 
 .header__nav {
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+    padding-top: 1rem;
     justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.header__nav--list li {
-    padding-right: 1em;
+    padding-bottom: 1rem;
 
 }
 
 .header__nav--list {
-    flex-wrap: wrap;
-
+    justify-self: flex-end;
+    gap: 3rem;
+    font-size: 1.5rem;
 }
+
+.nav--btn {
+    justify-self: flex-end;
+}
+
+.header__nav--list {
+    gap: 3rem;
+}
+
+
 
 
 /* hero */
@@ -174,6 +198,7 @@ body {
 /* why section */
 .why-container {
     flex-direction: column;
+    gap: 4rem;
 }
 
 .why__sections {
@@ -182,11 +207,13 @@ body {
 }
 
 .why__section {
+    color: var(--grey-text);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    gap: 1rem;
 }
 
 .why__section--img {
@@ -511,179 +538,4 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
-}
-
-@media screen and (max-width:830px) {
-    .hero__text--container {
-        margin: 0 auto;
-    }
-
-    .service__section--img {
-        width: 10rem;
-    }
-
-    .about--img {
-        height: 40rem;
-        width: 20rem;
-        object-position: left;
-        object-fit: cover;
-    }
-
-    .about__section--img {
-        height: 5rem;
-
-    }
-
-    .about-container {
-        padding: 0;
-    }
-
-    .about__content {
-        gap: 0.5rem;
-        padding-top: 1.5rem;
-    }
-
-    .about__content--sections {
-        gap: 2rem;
-        padding-top: 1rem;
-    }
-
-    .team--img {
-        width: 20rem;
-        height: 20rem;
-    }
-
-    .team__sections {
-        gap: 2rem;
-
-    }
-
-    .quote__card {
-        width: 70%;
-        margin: auto;
-    }
-
-
-
-}
-
-@media screen and (max-width: 410px) {
-    .section--h2 {
-        font-size: 0.5em;
-    }
-
-    .section--h1 {
-        font-size: 0.5em;
-    }
-
-    .header__topbar__contact {
-        flex-direction: column;
-
-        align-items: flex-start;
-    }
-
-    .header__nav--list {
-        justify-content: left;
-    }
-
-    .hero__text--container {
-        padding: 2rem;
-        width: auto;
-        font-size: 0.7em;
-    }
-
-    .hero--btn {
-        height: 4rem;
-    }
-
-    .why__sections {
-        flex-direction: column;
-        gap: 2rem;
-    }
-
-    .service__sections {
-        flex-direction: column;
-    }
-
-    .service__section--img {
-        width: 20rem;
-    }
-
-    .about--img {
-        display: none;
-    }
-
-    .about__content {
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-
-    .about__content__section {
-        flex-direction: column;
-
-    }
-
-    .about__content__section--subsection {
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-
-    .team__sections {
-        flex-direction: column;
-        gap: 3rem;
-    }
-
-    .price__sections {
-        flex-direction: column;
-        gap: 2rem;
-    }
-
-    .price__sections--section {
-        width: 80%;
-    }
-
-    .blog__sections {
-        flex-direction: column;
-        gap: 3rem;
-
-    }
-
-    .blog__section {
-        width: 80%;
-    }
-
-    .project-container {
-        flex-direction: column;
-
-    }
-
-    .project-card {
-        width: 80%;
-    }
-
-    .quote-container {
-        height: 70%;
-    }
-
-    .quote__card__form--input {
-        height: 0.5rem;
-    }
-
-    .quote__card__form {
-        gap: 1rem;
-    }
-
-    .quote__card {
-        padding: 1rem;
-        gap: 1rem;
-    }
-
-    .footer-container {
-        grid-template-columns: auto;
-        gap: 1rem;
-
-    }
-
 }
