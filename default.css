@@ -16,10 +16,12 @@ html {
     --primary-color: #38ADA9;
     --write-color: #FFFFFF;
     --secondary-color: #FAFAFA;
-    --grey-color: #EFEFEF;
+    --grey1-color: #EFEFEF;
     --grey2-color: #DEDEDE;
-    --grey-text: #7C7C7C;
-    --darkgrey-text: #3E3E3E;
+    --grey1-text: #7C7C7C;
+    --grey2-text: #3E3E3E;
+    --grey3-text: #707070;
+
 }
 
 body {
@@ -60,9 +62,6 @@ body {
     font-style: italic;
 }
 
-.text--write {
-    color: var(--write-color);
-}
 
 .section--h1 {
     font-size: 3.6rem;
@@ -72,7 +71,14 @@ body {
 
 .section--h2 {
     font-size: 2rem;
-    color: var(--primary-color)
+    color: var(--primary-color);
+
+
+}
+
+
+.text--write {
+    color: var(--write-color);
 }
 
 .main-content--text {

@@ -131,6 +131,7 @@
 .about-container {
     gap: 3rem;
     justify-content: space-between;
+    padding-bottom: 0;
 
 }
 
@@ -184,7 +185,6 @@
 }
 
 .banner-container {
-    padding: 3rem;
     justify-content: space-around;
 }
 
