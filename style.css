@@ -355,6 +355,11 @@
 }
 
 /* project section */
+.project-section--container {
+    flex-direction: column;
+    gap: 4rem;
+}
+
 .project-container {
     width: 100%;
     position: relative;

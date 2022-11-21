@@ -178,14 +178,6 @@
         width: 80%;
     }
 
-    .project-container {
-        flex-direction: column;
-
-    }
-
-    .project-card {
-        width: 80%;
-    }
 
 
     .ceo__img--container {
@@ -202,6 +194,23 @@
     .ceo--description {
         margin-top: 0rem;
 
+    }
+
+    .project-container {
+        flex-direction: column;
+
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    .project-arrow--left {
+        display: none;
+    }
+
+    .project-arrow--right {
+        display: none;
     }
 
     .quote-container {

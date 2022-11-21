@@ -106,6 +106,10 @@
         padding-bottom: 1rem;
     }
 
+    .project-card {
+        height: 17rem;
+    }
+
     .quote__card {
         width: 70%;
         margin: auto;
