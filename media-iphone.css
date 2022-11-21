@@ -240,7 +240,13 @@
 
     .footer-container {
         grid-template-columns: auto;
-        gap: 1rem;
+        gap: 2rem;
+
+    }
+
+    .footer__section {
+
+        gap: 0.3rem;
 
     }
 

@@ -468,23 +468,25 @@
     grid-template-columns: 30% 20% 20% 20%;
     justify-content: center;
     gap: 4rem;
+
 }
 
 .footer__section--header {
     height: 3rem;
-    padding: 0.5rem 0;
+
+
     font-size: 1.5rem;
-
-
-
+    /* justify-self: first baseline; */
 }
 
 .footer__section-1--img {
-    height: 3rem;
+    height: 100%;
+    width: 100%;
 }
 
 .footer__section {
     flex-direction: column;
     align-items: flex-start;
-    gap: 1rem;
+    gap: 3rem;
+    height: max-content;
 }
