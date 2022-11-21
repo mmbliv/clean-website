@@ -191,7 +191,7 @@
 /* team section */
 .team-container {
     flex-direction: column;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .team__sections {
@@ -205,8 +205,8 @@
 }
 
 .team--img {
-    height: 28.8rem;
-    width: 28.8rem;
+    height: 23rem;
+    width: 23rem;
     border-radius: 50%;
     object-fit: cover;
 }

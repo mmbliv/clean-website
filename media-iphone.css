@@ -150,7 +150,13 @@
 
     .team__sections {
         flex-direction: column;
-        gap: 3rem;
+        gap: 4rem;
+    }
+
+    .team--img {
+        height: 20rem;
+        width: 20rem;
+
     }
 
     .price__sections {
