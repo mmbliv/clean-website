@@ -97,6 +97,15 @@
 
     }
 
+    .price__text--price {
+        font-size: 3rem;
+
+    }
+
+    .price--per-month-padding {
+        padding-bottom: 1rem;
+    }
+
     .quote__card {
         width: 70%;
         margin: auto;
