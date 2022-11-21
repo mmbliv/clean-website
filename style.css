@@ -214,6 +214,7 @@
 /* price section */
 .price-container {
     flex-direction: column;
+    gap: 4rem;
 }
 
 .price__section--seperator {
@@ -232,29 +233,46 @@
 .price--img {
     font-weight: lighter;
     width: 3rem;
+    margin-bottom: 1rem;
 }
 
 .price__sections--section {
     flex-direction: column;
     border: 1px var(--grey-color) solid;
-    width: 25%;
-
+    width: 23%;
     position: relative;
+    background-color: var(--write-color);
+    padding-top: 2rem;
+
+
 
 }
 
-.price__section--content {
-    padding: 2rem;
+.price__sections--section:hover {
+    border: 2px var(--primary-color) solid;
 
+}
+
+.price__text--price {
+    font-size: 4rem;
+    color: var(--grey1-text);
+}
+
+.price__text--list {
+    font-size: 1rem;
+}
+
+.price--per-month-padding {
+    padding-bottom: 3rem;
 }
 
 .price--btn {
-
     border: none;
     width: 100%;
     background-color: var(--primary-color);
     padding: 0.5rem 3rem;
     color: var(--write-color);
+    margin-top: 2rem;
 
 }
 

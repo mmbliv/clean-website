@@ -84,11 +84,11 @@ body {
 .main-content--text {
     font-size: 1.4rem;
     line-height: 2rem;
-    color: var(--grey-text);
+    color: var(--grey1-text);
 }
 
 .text--darkgrey {
-    color: var(--darkgrey-text);
+    color: var(--grey2-text);
 }
 
 .text--left {
