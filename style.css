@@ -129,10 +129,8 @@
 
 /* about section */
 .about-container {
-
     gap: 3rem;
     justify-content: space-between;
-
 
 }
 
@@ -145,9 +143,6 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 2rem;
-
-
-
 }
 
 .about__img--container {

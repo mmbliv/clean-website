@@ -5,6 +5,11 @@
 
     }
 
+    .btn {
+        width: 13rem;
+        height: 4rem;
+    }
+
     .margin--section {
         margin-top: 3rem;
 
@@ -108,14 +113,18 @@
     }
 
     .about__content {
-        justify-content: center;
         align-items: center;
         text-align: center;
     }
 
     .about__content__section {
         flex-direction: column;
+        gap: 1rem;
 
+    }
+
+    .about__img--container {
+        display: none;
     }
 
     .about__content__section--subsection {

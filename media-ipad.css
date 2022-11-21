@@ -5,6 +5,15 @@
 
     }
 
+    .margin--section {
+        margin-top: 4rem;
+
+    }
+
+    .padding--section {
+        padding: 4rem;
+    }
+
     .header__nav--logo {
         width: 60%;
     }
@@ -39,11 +48,24 @@
         gap: 1rem;
     }
 
+
+    .about__img--container {
+        /* height: 50rem; */
+        width: 30rem;
+        height: 50rem;
+    }
+
     .about--img {
-        height: 40rem;
-        width: 20rem;
         object-position: left;
-        object-fit: cover;
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+    }
+
+    .about__content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
     }
 
     .about__section--img {
