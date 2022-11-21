@@ -86,6 +86,7 @@
 
     .why__section {
         gap: 1rem;
+        width: 100%;
     }
 
     .service-container {
@@ -165,7 +166,7 @@
     }
 
     .price__sections--section {
-        width: 80%;
+        width: 100%;
     }
 
     .blog__sections {
@@ -175,7 +176,7 @@
     }
 
     .blog__section {
-        width: 80%;
+        width: 100%;
     }
 
 
@@ -211,6 +212,13 @@
 
     .project-arrow--right {
         display: none;
+    }
+
+    .quote__card__form--btn {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-size: 1rem;
+
     }
 
     .quote-container {

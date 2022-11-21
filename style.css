@@ -421,7 +421,7 @@
 
 .quote__card {
     flex-direction: column;
-    width: 30%;
+    width: 40%;
     border: 1px var(--write-color) solid;
     padding: 4rem;
     background-color: var(--write-color);
@@ -440,7 +440,7 @@
 .quote__card__form--input {
     width: 100%;
     padding: 2rem;
-    background-color: var(--grey-color);
+    background-color: var(--grey2-color);
     border: none;
 
 }
@@ -448,7 +448,7 @@
 .quote__card__form--textarea {
     width: 100%;
     padding: 2rem;
-    background-color: var(--grey-color);
+    background-color: var(--grey2-color);
     border: none;
 
 }
